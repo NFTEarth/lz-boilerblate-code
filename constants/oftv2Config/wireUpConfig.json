@@ -1,21 +1,90 @@
 {
   "contractConfig": {
-    "name": "ExampleOFTV2"
+    "name": "NFTEarthOFT"
   },
   "chainConfig": {
-    "bsc-testnet": {
+    "arbitrum": {
       "useCustomAdapterParams": true,
       "remoteNetworkConfig": {
-        "goerli":  {
-          "minDstGasConfig": [100000, 160000]
+        "bsc":  {
+          "minDstGasConfig": [4000000, 4000000]
+        },
+        "optimism":  {
+          "minDstGasConfig": [4000000, 4000000]
+        },
+        "polygon":  {
+        "minDstGasConfig": [4000000, 4000000]
+        },
+        "avalanche":  {
+          "minDstGasConfig": [4000000, 4000000]
         }
       }
     },
-    "goerli": {
+    "optimism": {
       "useCustomAdapterParams": true,
       "remoteNetworkConfig": {
-        "bsc-testnet":  {
-          "minDstGasConfig": [100000, 160000]
+        "arbitrum":  {
+          "minDstGasConfig": [4000000, 4000000]
+        },
+        "bsc":  {
+          "minDstGasConfig": [2000000, 2000000]
+        },
+        "polygon":  {
+        "minDstGasConfig": [2000000, 2000000]
+        },
+        "avalanche":  {
+          "minDstGasConfig": [2000000, 2000000]
+        }
+      }
+    },
+    "polygon": {
+      "useCustomAdapterParams": true,
+      "remoteNetworkConfig": {
+        "bsc":  {
+          "minDstGasConfig": [2000000, 2000000]
+        },
+        "arbitrum":  {
+          "minDstGasConfig": [4000000, 4000000]
+        },
+        "optimism":  {
+        "minDstGasConfig": [2000000, 2000000]
+        },
+        "avalanche":  {
+          "minDstGasConfig": [2000000, 2000000]
+        }
+      }
+    },
+    "avalanche": {
+      "useCustomAdapterParams": true,
+      "remoteNetworkConfig": {
+        "bsc":  {
+          "minDstGasConfig": [2000000, 2000000]
+        },
+        "arbitrum":  {
+          "minDstGasConfig": [4000000, 4000000]
+        },
+        "polygon":  {
+        "minDstGasConfig": [2000000, 2000000]
+        },
+        "optimism":  {
+          "minDstGasConfig": [2000000, 2000000]
+        }
+      }
+    },
+    "bsc": {
+      "useCustomAdapterParams": true,
+      "remoteNetworkConfig": {
+        "arbitrum":  {
+          "minDstGasConfig": [4000000, 4000000]
+        },
+        "optimism":  {
+          "minDstGasConfig": [2000000, 2000000]
+        },
+        "polygon":  {
+        "minDstGasConfig": [2000000, 2000000]
+        },
+        "avalanche":  {
+          "minDstGasConfig": [2000000, 2000000]
         }
       }
     }

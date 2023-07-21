@@ -6,7 +6,7 @@ module.exports = async function (taskArgs, hre) {
     let owner = signers[0]
     let toAddress = owner.address;
     let qty = BigNumber.from(taskArgs.qty)
-    let contractName = "ExampleOFTV2"
+    let contractName = "NFTEarthOFT"
 
     // get remote chain id
     const remoteChainId = CHAIN_ID[taskArgs.targetNetwork]

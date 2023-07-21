@@ -82,22 +82,22 @@ const config: HardhatUserConfig = {
       accounts: accounts(),
     },
     avalanche: {
-      url: "https://api.avax.network/ext/bc/C/rpc",
+      url: "https://avalanche-mainnet.infura.io/v3/e2a4268d58754f3fac20570df0f99c75",
       chainId: 43114,
       accounts: accounts(),
     },
     polygon: {
-      url: "https://polygon-rpc.com",
+      url: "https://polygon-mainnet.infura.io/v3/e2a4268d58754f3fac20570df0f99c75",
       chainId: 137,
       accounts: accounts(),
     },
     arbitrum: {
-      url: `https://arb1.arbitrum.io/rpc`,
+      url: `https://arbitrum-mainnet.infura.io/v3/e2a4268d58754f3fac20570df0f99c75`,
       chainId: 42161,
       accounts: accounts(),
     },
     optimism: {
-      url: `https://opt-mainnet.g.alchemy.com/v2/demo`,
+      url: `https://optimism-mainnet.infura.io/v3/e2a4268d58754f3fac20570df0f99c75`,
       chainId: 10,
       accounts: accounts(),
     },

@@ -1,33 +1,216 @@
 {
-	"goerli": {
-		"name": "ExampleOFTV2",
-		"sendVersion": 3,
-		"receiveVersion": 3,
+	"arbitrum": {
+		"name": "NFTEarthOFT",
+		"sendVersion": 2,
+		"receiveVersion": 2,
 		"remoteConfigs": [
 			{
-				"remoteChain": "bsc-testnet",
-				"inboundProofLibraryVersion": 2,
-				"inboundBlockConfirmations": 5,
-				"relayer": "0xC9b7EDc65488bDBb428526B03935090aef40Ff03",
-				"outboundProofType": 2,
-				"outboundBlockConfirmations": 3,
-				"oracle": "0x36Ebea3941907C438Ca8Ca2B1065dEef21CCdaeD"
+				"remoteChain": "optimism",
+				"inboundProofLibraryVersion": 1,
+				"inboundBlockConfirmations": 20,
+				"relayer": "0x177d36dBE2271A4DdB2Ad8304d82628eb921d790",
+				"outboundProofType": 1,
+				"outboundBlockConfirmations": 20,
+				"oracle": "0xA0Cc33Dd6f4819D473226257792AFe230EC3c67f"
+			},
+			{
+				"remoteChain": "bsc",
+				"inboundProofLibraryVersion": 1,
+				"inboundBlockConfirmations": 20,
+				"relayer": "0x177d36dBE2271A4DdB2Ad8304d82628eb921d790",
+				"outboundProofType": 1,
+				"outboundBlockConfirmations": 20,
+				"oracle": "0xA0Cc33Dd6f4819D473226257792AFe230EC3c67f"
+			},
+			{
+				"remoteChain": "polygon",
+				"inboundProofLibraryVersion": 1,
+				"inboundBlockConfirmations": 512,
+				"relayer": "0x177d36dBE2271A4DdB2Ad8304d82628eb921d790",
+				"outboundProofType": 1,
+				"outboundBlockConfirmations": 512,
+				"oracle": "0xA0Cc33Dd6f4819D473226257792AFe230EC3c67f"
+			},
+			{
+				"remoteChain": "avalanche",
+				"inboundProofLibraryVersion": 1,
+				"inboundBlockConfirmations": 12,
+				"relayer": "0x177d36dBE2271A4DdB2Ad8304d82628eb921d790",
+				"outboundProofType": 1,
+				"outboundBlockConfirmations": 12,
+				"oracle": "0xA0Cc33Dd6f4819D473226257792AFe230EC3c67f"
 			}
 		]
 	},
-	"bsc-testnet": {
-		"name": "ExampleOFTV2",
-		"sendVersion": 3,
-		"receiveVersion": 3,
+	"bsc": {
+		"name": "NFTEarthOFT",
+		"sendVersion": 2,
+		"receiveVersion": 2,
 		"remoteConfigs": [
 			{
-				"remoteChain": "goerli",
-				"inboundProofLibraryVersion": 2,
-				"inboundBlockConfirmations": 3,
-				"relayer": "0xc0eb57BF242f8DD78a1AAA0684b15FAda79B6F85",
-				"outboundProofType": 2,
-				"outboundBlockConfirmations": 5,
-				"oracle": "0x53ccB44479b2666cf93F5e815F75738Aa5C6D3B9"
+				"remoteChain": "arbitrum",
+				"inboundProofLibraryVersion": 1,
+				"inboundBlockConfirmations": 20,
+				"relayer": "0xA27A2cA24DD28Ce14Fb5f5844b59851F03DCf182",
+				"outboundProofType": 1,
+				"outboundBlockConfirmations": 20,
+				"oracle": "0x5a54fe5234E811466D5366846283323c954310B2"
+			},
+			{
+				"remoteChain": "optimism",
+				"inboundProofLibraryVersion": 1,
+				"inboundBlockConfirmations": 20,
+				"relayer": "0xA27A2cA24DD28Ce14Fb5f5844b59851F03DCf182",
+				"outboundProofType": 1,
+				"outboundBlockConfirmations": 20,
+				"oracle": "0x5a54fe5234E811466D5366846283323c954310B2"
+			},
+			{
+				"remoteChain": "polygon",
+				"inboundProofLibraryVersion": 1,
+				"inboundBlockConfirmations": 512,
+				"relayer": "0xA27A2cA24DD28Ce14Fb5f5844b59851F03DCf182",
+				"outboundProofType": 1,
+				"outboundBlockConfirmations": 512,
+				"oracle": "0x5a54fe5234E811466D5366846283323c954310B2"
+			},
+			{
+				"remoteChain": "avalanche",
+				"inboundProofLibraryVersion": 1,
+				"inboundBlockConfirmations": 12,
+				"relayer": "0xA27A2cA24DD28Ce14Fb5f5844b59851F03DCf182",
+				"outboundProofType": 1,
+				"outboundBlockConfirmations": 12,
+				"oracle": "0x5a54fe5234E811466D5366846283323c954310B2"
+			}
+		]
+	},
+	"optimism": {
+		"name": "NFTEarthOFT",
+		"sendVersion": 2,
+		"receiveVersion": 2,
+		"remoteConfigs": [
+			{
+				"remoteChain": "arbitrum",
+				"inboundProofLibraryVersion": 1,
+				"inboundBlockConfirmations": 20,
+				"relayer": "0x81E792e5a9003CC1C8BF5569A00f34b65d75b017",
+				"outboundProofType": 1,
+				"outboundBlockConfirmations": 20,
+				"oracle": "0xA0Cc33Dd6f4819D473226257792AFe230EC3c67f"
+			},
+			{
+				"remoteChain": "bsc",
+				"inboundProofLibraryVersion": 1,
+				"inboundBlockConfirmations": 20,
+				"relayer": "0x81E792e5a9003CC1C8BF5569A00f34b65d75b017",
+				"outboundProofType": 1,
+				"outboundBlockConfirmations": 20,
+				"oracle": "0xA0Cc33Dd6f4819D473226257792AFe230EC3c67f"
+			},
+			{
+				"remoteChain": "polygon",
+				"inboundProofLibraryVersion": 1,
+				"inboundBlockConfirmations": 512,
+				"relayer": "0x81E792e5a9003CC1C8BF5569A00f34b65d75b017",
+				"outboundProofType": 1,
+				"outboundBlockConfirmations": 512,
+				"oracle": "0xA0Cc33Dd6f4819D473226257792AFe230EC3c67f"
+			},
+			{
+				"remoteChain": "avalanche",
+				"inboundProofLibraryVersion": 1,
+				"inboundBlockConfirmations": 12,
+				"relayer": "0x81E792e5a9003CC1C8BF5569A00f34b65d75b017",
+				"outboundProofType": 1,
+				"outboundBlockConfirmations": 12,
+				"oracle": "0xA0Cc33Dd6f4819D473226257792AFe230EC3c67f"
+			}
+		]
+	},
+	"avalanche": {
+		"name": "NFTEarthOFT",
+		"sendVersion": 2,
+		"receiveVersion": 2,
+		"remoteConfigs": [
+			{
+				"remoteChain": "arbitrum",
+				"inboundProofLibraryVersion": 1,
+				"inboundBlockConfirmations": 20,
+				"relayer": "0xCD2E3622d483C7Dc855F72e5eafAdCD577ac78B4",
+				"outboundProofType": 1,
+				"outboundBlockConfirmations": 20,
+				"oracle": "0x5a54fe5234E811466D5366846283323c954310B2"
+			},
+			{
+				"remoteChain": "bsc",
+				"inboundProofLibraryVersion": 1,
+				"inboundBlockConfirmations": 20,
+				"relayer": "0xCD2E3622d483C7Dc855F72e5eafAdCD577ac78B4",
+				"outboundProofType": 1,
+				"outboundBlockConfirmations": 20,
+				"oracle": "0x5a54fe5234E811466D5366846283323c954310B2"
+			},
+			{
+				"remoteChain": "polygon",
+				"inboundProofLibraryVersion": 1,
+				"inboundBlockConfirmations": 512,
+				"relayer": "0xCD2E3622d483C7Dc855F72e5eafAdCD577ac78B4",
+				"outboundProofType": 1,
+				"outboundBlockConfirmations": 512,
+				"oracle": "0x5a54fe5234E811466D5366846283323c954310B2"
+			},
+			{
+				"remoteChain": "optimism",
+				"inboundProofLibraryVersion": 1,
+				"inboundBlockConfirmations": 20,
+				"relayer": "0xCD2E3622d483C7Dc855F72e5eafAdCD577ac78B4",
+				"outboundProofType": 1,
+				"outboundBlockConfirmations": 20,
+				"oracle": "0x5a54fe5234E811466D5366846283323c954310B2"
+			}
+		]
+	},
+	"polygon": {
+		"name": "NFTEarthOFT",
+		"sendVersion": 2,
+		"receiveVersion": 2,
+		"remoteConfigs": [
+			{
+				"remoteChain": "arbitrum",
+				"inboundProofLibraryVersion": 1,
+				"inboundBlockConfirmations": 20,
+				"relayer": "0x75dC8e5F50C8221a82CA6aF64aF811caA983B65f",
+				"outboundProofType": 1,
+				"outboundBlockConfirmations": 20,
+				"oracle": "0x5a54fe5234E811466D5366846283323c954310B2"
+			},
+			{
+				"remoteChain": "bsc",
+				"inboundProofLibraryVersion": 1,
+				"inboundBlockConfirmations": 20,
+				"relayer": "0x75dC8e5F50C8221a82CA6aF64aF811caA983B65f",
+				"outboundProofType": 1,
+				"outboundBlockConfirmations": 20,
+				"oracle": "0x5a54fe5234E811466D5366846283323c954310B2"
+			},
+			{
+				"remoteChain": "optimism",
+				"inboundProofLibraryVersion": 1,
+				"inboundBlockConfirmations": 20,
+				"relayer": "0x75dC8e5F50C8221a82CA6aF64aF811caA983B65f",
+				"outboundProofType": 1,
+				"outboundBlockConfirmations": 20,
+				"oracle": "0x5a54fe5234E811466D5366846283323c954310B2"
+			},
+			{
+				"remoteChain": "avalanche",
+				"inboundProofLibraryVersion": 1,
+				"inboundBlockConfirmations": 12,
+				"relayer": "0x75dC8e5F50C8221a82CA6aF64aF811caA983B65f",
+				"outboundProofType": 1,
+				"outboundBlockConfirmations": 12,
+				"oracle": "0x5a54fe5234E811466D5366846283323c954310B2"
 			}
 		]
 	}

@@ -106,6 +106,16 @@ const config: HardhatUserConfig = {
       chainId: 250,
       accounts: accounts(),
     },
+    linea: {
+      url: `https://linea-mainnet.infura.io/v3/e2a4268d58754f3fac20570df0f99c75`,
+      chainId: 59144,
+      accounts: accounts(),
+    },
+      base: { 
+        url: `https://developer-access-mainnet.base.org`,
+        chainId: 8453,
+        accounts: accounts(),
+    },
     goerli: {
       url: "https://goerli.infura.io/v3/9aa3d95b3bc440fa88ea12eaa4456161", // public infura endpoint
       chainId: 5,
